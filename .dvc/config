@@ -1,4 +1,6 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = https://drive.google.com/drive/folders/1VstPD2A8P2DenngdtnQp5ENh0C8hxAkt?usp=sharing
+    url = gdrive://1VstPD2A8P2DenngdtnQp5ENh0C8hxAkt
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = C:\Users\dell\Desktop\MLOPs_TASK7\dvc.json
